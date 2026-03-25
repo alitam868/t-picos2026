@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    background-color: #fdd1f0;
+    padding: 20px;
+}
+
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+form {
+    background: rgb(241, 183, 210);
+    padding: 15px;
+    width: 320px;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+
+input {
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 6px;
+}
+
+
+input[type="submit"] {
+    background-color: #be5e86;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contato a {
+    text-decoration: none;
+    margin-right: 500px;
+    font-weight: bold;
+}
+
+.contato a[href*="editar"] {
+    color: #27ae60;
+}
+
+.contato a[href*="excluir"] {
+    color: #e74c3c;
+}
